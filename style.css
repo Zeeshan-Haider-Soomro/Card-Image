@@ -1,11 +1,14 @@
-h1{
-    color: aliceblue;
-
+.container-fluid {
+    background-image: url(./back.jpg);
 }
-body{
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#second {
+    background-image: url(./one.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     height: 100vh;
+}
+.height {
+    height: 270px;
+    object-fit: contain;
 }
